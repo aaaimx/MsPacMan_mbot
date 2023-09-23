@@ -49,3 +49,15 @@ def on_start():
     cyberpi.console.print(cyberpi.network.get_ip())
     cyberpi.led.show('cyan cyan cyan cyan cyan')
  
+
+@event.is_press('b')
+def is_btn_press():
+    send('127 holaaa')
+
+@event.is_press('a')
+def is_btn_press():
+    send('cosasssss')
+
+@event.is_press('middle')
+def is_joy_press():
+    cyberpi.console.clear()
