@@ -1,3 +1,3 @@
 # MsPacMan_mbot
 
-El siguiente 
+El siguiente proyecto es
